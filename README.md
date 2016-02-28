@@ -4,7 +4,7 @@ PHP class used to extract data from ex-Yugoslavian unique citizen identification
 
 ## Introduction
 
-JMBG (jedinstveni matični broj građana) or *unique citizen identification number* is a 13 characters long number assigned to all newborns in ex Yugoslavia countries. It seems random but it isn't. It holds following data:
+JMBG (jedinstveni matični broj građana) or *unique citizen identification number* is a 13 characters long number assigned to all newborns in ex Yugoslavian countries. It seems random but it isn't. It holds following data:
 
 * date of birth
 * state of birth
@@ -12,7 +12,7 @@ JMBG (jedinstveni matični broj građana) or *unique citizen identification numb
 * gender
 * validation checksum
 
-This PHP class can be used to extract this data from JMBG numbers.
+This PHP class can be used to extract this data from JMBG numbers. It uses PSR-4 autoloading standard.
 
 ## Intallation
 
