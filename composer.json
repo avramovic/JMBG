@@ -1,6 +1,6 @@
 {
     "name": "avram/jmbg",
-    "description": "Class to work with ex-YU unique citizen identification numbers.",
+    "description": "Class to extract data from ex-Yugoslavian unique citizen identification numbers.",
     "license": "MIT",
     "authors": [
         {
