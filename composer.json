@@ -1,7 +1,7 @@
 {
     "name": "avram/jmbg",
-    "description": "Class to extract data from ex-Yugoslavian unique citizen identification numbers.",
-    "license": "MIT",
+    "description": "Class used to extract data from ex-Yugoslavian unique citizen identification numbers.",
+    "license": "MIT License",
     "authors": [
         {
             "name": "Nemanja Avramovic",
