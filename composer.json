@@ -1,0 +1,19 @@
+{
+    "name": "avram/jmbg",
+    "description": "Class to work with ex-YU unique citizen identification numbers.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nemanja Avramovic",
+            "email": "avramyu@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Avram\\JMBG\\": "src/"
+        }
+    }
+}
