@@ -206,6 +206,10 @@ class JMBG
         foreach ($arr as $k => $v) $$k = (int)$v;
 
         $checksum = 11 - (7 * ($A + $G) + 6 * ($B + $H) + 5 * ($C + $I) + 4 * ($D + $J) + 3 * ($E + $K) + 2 * ($F + $L)) % 11;
+        if ($checksum > 9){
+            $checksum = 0;
+        }
+
         return ($checksum == $M);
     }
 
